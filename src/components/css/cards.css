@@ -1,0 +1,76 @@
+.box{
+    border: 1px solid lightblue;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.uid{
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+.card-main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.city{
+    display: flex;
+    
+    flex-flow: row wrap;
+    flex-basis: auto;
+    justify-content: center;
+}
+.btn1{
+    
+    background-color: lightblue;
+    
+}
+.item{
+    border: 1px solid orange;
+    background-color: lightgray;
+    margin-bottom: 2px;
+}
+.Rooms{
+    border: 1px solid orange;
+    padding-top: 10px;
+    
+}
+.lr{
+    border: 1px solid lightgray;
+    max-width: 8%;
+}
+.item1{
+    border: 1px solid lightgray;
+}
+.Ehouse{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.dtls{
+    border: 1px solid lightgray;
+    max-width: 30%;
+}
+.el{
+    border: 1px solid lightseagreen;
+    max-width: 30%;
+}
+.Nhouse{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.room-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.room-items{
+    width: 200px;
+    border: 1px solid lightgray;
+    margin: auto;
+}
